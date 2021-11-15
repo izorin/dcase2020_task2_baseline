@@ -184,6 +184,8 @@ def select_dirs(param, mode):
         logger.info("load_directory <- evaluation")
         dir_path = os.path.abspath("{base}/*".format(base=param["eval_directory"]))
         dirs = sorted(glob.glob(dir_path))
+    
+    dirs = [dir_ for dir_ in dirs if dir_.split(os.sep)[-1] in param['machines']]
     return dirs
 
 ########################################################################

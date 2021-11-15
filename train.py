@@ -160,7 +160,7 @@ if __name__ == "__main__":
     os.makedirs(param["model_directory"], exist_ok=True)
 
     # initialize the visualizer
-    visualizer = visualizer()
+    # visualizer = visualizer()
 
     # load base_directory list
     dirs = com.select_dirs(param=param, mode=mode)
