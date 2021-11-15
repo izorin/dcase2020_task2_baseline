@@ -1,6 +1,10 @@
 # dev_directory : ./dev_data
 dev_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
 eval_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
+# dirs for training on cluster
+# dev_directory :  
+# eval_directory : 
+
 machines : ["slider"] # list of names or "all" to select all in dev/eval directory
 model_directory: ./model
 result_directory: ./result
