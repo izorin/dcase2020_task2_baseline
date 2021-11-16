@@ -80,7 +80,7 @@ def command_line_chk():
 # load parameter.yaml
 ########################################################################
 def yaml_load():
-    with open("baseline.yaml") as stream:
+    with open("/home/jovyan/code/dcase2020_task2_baseline/baseline.yaml") as stream:
         param = yaml.safe_load(stream)
     return param
 

@@ -1,13 +1,13 @@
 # dev_directory : ./dev_data
-dev_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
-eval_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
+# dev_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
+# eval_directory : /Users/ivan_zorin/Documents/AIRI/data/dcase20/dev_data/
 # dirs for training on cluster
-# dev_directory :  
-# eval_directory : 
+dev_directory :  /home/jovyan/data/dcase20/dev
+eval_directory : /home/jovyan/data/dcase20/eval
 
 machines : ["slider"] # list of names or "all" to select all in dev/eval directory
-model_directory: ./model
-result_directory: ./result
+model_directory: /home/jovyan/code/dcase2020_task2_baseline/model
+result_directory: /home/jovyan/code/dcase2020_task2_baseline/result
 result_file: result.csv
 
 max_fpr : 0.1
@@ -24,7 +24,7 @@ fit:
   compile:
     optimizer : adam
     loss : mean_squared_error
-  epochs : 100
+  epochs : 50
   batch_size : 512
   shuffle : True
   validation_split : 0.1

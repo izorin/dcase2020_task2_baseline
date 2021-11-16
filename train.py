@@ -11,6 +11,7 @@
 import os
 import glob
 import sys
+from datetime import datetime
 ########################################################################
 
 
@@ -152,15 +153,17 @@ if __name__ == "__main__":
     # check mode
     # "development": mode == True
     # "evaluation": mode == False
-    mode = com.command_line_chk()
-    if mode is None:
-        sys.exit(-1)
-        
+#     mode = com.command_line_chk()
+#     if mode is None:
+#         sys.exit(-1)
+
+    mode = True
+    
     # make output directory
     os.makedirs(param["model_directory"], exist_ok=True)
 
     # initialize the visualizer
-    # visualizer = visualizer()
+    visualizer = visualizer()
 
     # load base_directory list
     dirs = com.select_dirs(param=param, mode=mode)
@@ -172,10 +175,14 @@ if __name__ == "__main__":
 
         # set path
         machine_type = os.path.split(target_dir)[1]
-        model_file_path = "{model}/model_{machine_type}.hdf5".format(model=param["model_directory"],
-                                                                     machine_type=machine_type)
-        history_img = "{model}/history_{machine_type}.png".format(model=param["model_directory"],
-                                                                  machine_type=machine_type)
+        cur_time = datetime.now().strftime('%d%m%y_%H%M%S')
+        
+        model_file_path = "{model}/model_{machine_type}_{cur_time}.hdf5".format(model=param["model_directory"],
+                                                                                machine_type=machine_type,
+                                                                               cur_time=cur_time)
+        history_img = "{model}/history_{machine_type}_{cur_time}.png".format(model=param["model_directory"],
+                                                                             machine_type=machine_type,
+                                                                            cur_time=cur_time)
 
         if os.path.exists(model_file_path):
             com.logger.info("model exists")
@@ -195,7 +202,7 @@ if __name__ == "__main__":
         # train model
         print("============== MODEL TRAINING ==============")
         model = keras_model.get_model(param["feature"]["n_mels"] * param["feature"]["frames"])
-        model.summary()
+#         model.summary()
 
         model.compile(**param["fit"]["compile"])
         history = model.fit(train_data,
