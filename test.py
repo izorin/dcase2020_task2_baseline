@@ -49,7 +49,7 @@ def save_csv(save_file_path,
 
 def get_machine_id_list_for_test(target_dir,
                                  dir_name="test",
-                                 ext="wav"):
+                                 ext="wav",):
     """
     target_dir : str
         base directory path of "dev_data" or "eval_data"
@@ -73,6 +73,7 @@ def get_machine_id_list_for_test(target_dir,
 
 def test_file_list_generator(target_dir,
                              id_name,
+                             mode=True,
                              dir_name="test",
                              prefix_normal="normal",
                              prefix_anomaly="anomaly",
@@ -172,8 +173,9 @@ if __name__ == "__main__":
 
         print("============== MODEL LOAD ==============")
         # set model path
-        model_file = "{model}/model_{machine_type}.hdf5".format(model=param["model_directory"],
-                                                                machine_type=machine_type)
+        # model_file = "{model}/model_{machine_type}.hdf5".format(model=param["model_directory"],
+                                                                # machine_type=machine_type)
+        model_file = '/home/jovyan/code/dcase2020_task2_baseline/model/model_slider_161121_152557.hdf5'
 
         # load model file
         if not os.path.exists(model_file):
