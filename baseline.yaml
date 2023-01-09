@@ -5,7 +5,7 @@
 dev_directory :  /home/jovyan/data/dcase20/dev
 eval_directory : /home/jovyan/data/dcase20/eval
 
-machines : ["slider"] # list of names or "all" to select all in dev/eval directory
+machines : ["fan"] # list of names or "all" to select all in dev/eval directory
 model_directory: /home/jovyan/code/dcase2020_task2_baseline/model
 result_directory: /home/jovyan/code/dcase2020_task2_baseline/result
 result_file: result.csv

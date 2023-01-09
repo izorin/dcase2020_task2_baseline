@@ -175,7 +175,14 @@ if __name__ == "__main__":
         # set model path
         # model_file = "{model}/model_{machine_type}.hdf5".format(model=param["model_directory"],
                                                                 # machine_type=machine_type)
-        model_file = '/home/jovyan/code/dcase2020_task2_baseline/model/model_slider_161121_152557.hdf5'
+        # slider
+        # model_file = '/home/jovyan/code/dcase2020_task2_baseline/model/model_slider_161121_152557.hdf5'
+        # fan
+        model_file = '/home/jovyan/code/dcase2020_task2_baseline/model/model_fan_301121_123816.hdf5'
+        # pump
+        # model_file = '/home/jovyan/code/dcase2020_task2_baseline/model/model_pump_301121_133420.hdf5'
+
+
 
         # load model file
         if not os.path.exists(model_file):

@@ -812,3 +812,121 @@ DEBUG:parso.python.diff:line_lengths old: 1; new: 1
 DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
 DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
 DEBUG:parso.python.diff:diff parser end
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_00
+INFO: :test_file  num : 243
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_00.csv
+INFO: :AUC : 0.6041958041958042
+INFO: :pAUC : 0.5535517114464483
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_02
+INFO: :test_file  num : 211
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_02.csv
+INFO: :AUC : 0.7175675675675676
+INFO: :pAUC : 0.5576102418207681
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_04
+INFO: :test_file  num : 200
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_04.csv
+INFO: :AUC : 0.44310000000000005
+INFO: :pAUC : 0.5010526315789474
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_06
+INFO: :test_file  num : 202
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_06.csv
+INFO: :AUC : 0.6303921568627451
+INFO: :pAUC : 0.5294117647058824
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_00
+INFO: :test_file  num : 507
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_00.csv
+INFO: :AUC : 0.5695331695331696
+INFO: :pAUC : 0.49605586447691713
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_02
+INFO: :test_file  num : 459
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_02.csv
+INFO: :AUC : 0.41206128133704734
+INFO: :pAUC : 0.5164931828177687
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_04
+INFO: :test_file  num : 448
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_04.csv
+INFO: :AUC : 0.49732758620689654
+INFO: :pAUC : 0.5196612220205686
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_06
+INFO: :test_file  num : 461
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_06.csv
+INFO: :AUC : 0.2656509695290859
+INFO: :pAUC : 0.5252952325411867
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_00
+INFO: :test_file  num : 507
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_00.csv
+INFO: :AUC : 0.5402702702702703
+INFO: :pAUC : 0.4951506530453899
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_02
+INFO: :test_file  num : 459
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_02.csv
+INFO: :AUC : 0.7298885793871867
+INFO: :pAUC : 0.5496261545227973
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_04
+INFO: :test_file  num : 448
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_04.csv
+INFO: :AUC : 0.5971839080459771
+INFO: :pAUC : 0.5408348457350272
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_06
+INFO: :test_file  num : 461
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_06.csv
+INFO: :AUC : 0.7263711911357341
+INFO: :pAUC : 0.5277737279486806
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_00
+INFO: :test_file  num : 243
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_00.csv
+INFO: :AUC : 0.6946153846153846
+INFO: :pAUC : 0.576370997423629
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_02
+INFO: :test_file  num : 211
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_02.csv
+INFO: :AUC : 0.6168468468468469
+INFO: :pAUC : 0.5912754860123282
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_04
+INFO: :test_file  num : 200
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_04.csv
+INFO: :AUC : 0.8881
+INFO: :pAUC : 0.6931578947368421
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/pump_id_06
+INFO: :test_file  num : 202
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_pump_id_06.csv
+INFO: :AUC : 0.7346078431372548
+INFO: :pAUC : 0.5758513931888545
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
+DEBUG:tensorflow:Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+INFO: :load_directory <- development
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_00
+INFO: :test_file  num : 507
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_00.csv
+INFO: :AUC : 0.5402702702702703
+INFO: :pAUC : 0.4951506530453899
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_02
+INFO: :test_file  num : 459
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_02.csv
+INFO: :AUC : 0.7298885793871867
+INFO: :pAUC : 0.5496261545227973
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_04
+INFO: :test_file  num : 448
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_04.csv
+INFO: :AUC : 0.5971839080459771
+INFO: :pAUC : 0.5408348457350272
+INFO: :target_dir : /home/jovyan/data/dcase20/dev/fan_id_06
+INFO: :test_file  num : 461
+INFO: :anomaly score result ->  /home/jovyan/code/dcase2020_task2_baseline/result/anomaly_score_fan_id_06.csv
+INFO: :AUC : 0.7263711911357341
+INFO: :pAUC : 0.5277737279486806
+INFO: :AUC and pAUC results -> /home/jovyan/code/dcase2020_task2_baseline/result/result.csv
